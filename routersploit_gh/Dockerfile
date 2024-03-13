@@ -1,4 +1,4 @@
-FROM ubuntu:20.04
+FROM ubuntu:mantic-20240216
 
 ENV DEBIAN_FRONTEND=noninteractive
 RUN apt -y update && apt -y upgrade
